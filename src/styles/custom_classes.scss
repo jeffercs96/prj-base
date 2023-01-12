@@ -1,0 +1,66 @@
+.is-color-c1 {
+    color: var(--app-c1) !important;
+}
+
+.is-color-c2 {
+    color: var(--app-c2) !important;
+}
+
+.is-color-c3 {
+    color: var(--app-c3) !important;
+}
+
+.is-color-c4 {
+    color: var(--app-c4) !important;
+}
+
+.is-color-c5 {
+    color: var(--app-c5) !important;
+}
+
+.is-color-c6 {
+    color: var(--app-c6) !important;
+}
+
+.is-color-c7 {
+    color: var(--app-c7) !important;
+}
+
+.is-pointer {
+    cursor: pointer;
+}
+
+.is-title {
+    font-size: 3.333vw !important;
+    font-weight: 700 !important;
+}
+
+.is-subtitle {
+    font-size: 2vw !important;
+    font-weight: 500 !important;
+}
+
+.is-text {
+    font-size: 1.667vw !important;
+    font-weight: 400 !important;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .is-title {
+        font-size: 6vw !important;
+        font-weight: 700 !important;
+    }
+
+    .is-subtitle {
+        font-size: 3vw !important;
+        font-weight: 500 !important;
+    }
+
+    .is-text {
+        font-size: 3vw !important;
+        font-weight: 400 !important;
+    }
+
+
+}

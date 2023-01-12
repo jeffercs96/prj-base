@@ -1,0 +1,83 @@
+:root {
+    font-family: Poppins, sans-serif;
+    line-height: 150%;
+    --app-bg: #252627;
+    --app-c1: #181818;
+    --app-c2: #FFC450;
+    --app-c3: #00AC7C;
+    --app-c4: #FC0853;
+    --app-c5: #CBCBCB;
+    --app-c6: #000000;
+    --app-c7: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* ::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--app-bg);
+    // overflow-y: hidden;
+    // overflow-x: hidden;
+}
+
+// html,
+// body {
+//     margin: 0;
+//     height: 100%;
+//     overflow: hidden
+// }
+
+.carousel-scene,
+.carousel-items {
+    height: 100%;
+
+}
+
+.carousel .carousel-indicator .indicator-item .indicator-style.is-active,
+.carousel .carousel-indicator .indicator-item .indicator-style.is-active:hover {
+    background: var(--app-c2);
+    border: 1px solid var(--app-c7);
+    transform: scale(1.5);
+}
+
+.carousel .carousel-indicator .indicator-item .indicator-style {
+    display: block;
+    border: 1px solid var(--app-c1);
+    background: var(--app-c7);
+
+}
+
+.carousel .carousel-indicator .indicator-item .indicator-style.is-dots {
+    height: 1vw;
+    width: 1vw;
+}
+
+.carousel .carousel-indicator .indicator-item:not(:last-child) {
+    margin-right: 0.5vw;
+}
+
+.carousel .carousel-indicator.is-inside.is-bottom {
+    bottom: 1vw;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel .carousel-indicator .indicator-item .indicator-style.is-dots {
+        height: 1vh;
+        width: 1vh;
+    }
+
+    .carousel .carousel-indicator .indicator-item:not(:last-child) {
+        margin-right: 0.5vh;
+    }
+}
